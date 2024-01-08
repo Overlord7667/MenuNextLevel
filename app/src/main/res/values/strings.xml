@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">MenuNextLevel</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">ГЛАВНАЯ</string>
+    <string name="menu_gallery">РАСПИСАНИЕ</string>
+    <string name="menu_slideshow">СКОРО</string>
+    <string name="menu_favorites">ИЗБРАННОЕ</string>
+    <string name="message">УВЕДОМЛЕНИЕ</string>
+    <string name="menu_cineclub">CINECLUB</string>
+    <string name="platinum">ПЛАТИНУМ</string>
+    <string name="menu_dolby_atmos">DOLBY ATMOS</string>
+    <string name="menu_about">О НАС</string>
+    <string name="menu_help">ПОМОЩЬ</string>
+    <string name="menu_contacts">КОНТАКТЫ</string>
+</resources>

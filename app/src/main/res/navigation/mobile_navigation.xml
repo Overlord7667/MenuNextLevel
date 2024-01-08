@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.betelgeuse.corp.menunextlevel.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_raspisanie"
+        android:name="com.betelgeuse.corp.menunextlevel.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_izbranoe"
+        android:name="com.betelgeuse.corp.menunextlevel.ui.favorites.FavoritesFragment"
+        android:label="@string/menu_favorites"
+        tools:layout="@layout/favorites" />
+
+    <fragment
+        android:id="@+id/nav_mesage"
+        android:name="com.betelgeuse.corp.menunextlevel.ui.message.MessageFragment"
+        android:label="@string/message"
+        tools:layout="@layout/message" />
+
+    <fragment
+        android:id="@+id/nav_cineclub"
+        android:name="com.betelgeuse.corp.menunextlevel.ui.cineclub.CineclubFragment"
+        android:label="@string/menu_cineclub"
+        tools:layout="@layout/cineclub" />
+
+    <fragment
+        android:id="@+id/nav_platinum"
+        android:name="com.betelgeuse.corp.menunextlevel.ui.platinum.PlatinumFragment"
+        android:label="@string/platinum"
+        tools:layout="@layout/platinum" />
+
+    <fragment
+        android:id="@+id/nav_dolby"
+        android:name="com.betelgeuse.corp.menunextlevel.ui.dolby.DolbyFragment"
+        android:label="@string/menu_dolby_atmos"
+        tools:layout="@layout/dolby" />
+
+    <fragment
+        android:id="@+id/about"
+        android:name="com.betelgeuse.corp.menunextlevel.ui.about.AboutFragment"
+        android:label="@string/menu_about"
+        tools:layout="@layout/about" />
+
+    <fragment
+        android:id="@+id/help"
+        android:name="com.betelgeuse.corp.menunextlevel.ui.help.HelpFragment"
+        android:label="@string/menu_help"
+        tools:layout="@layout/help" />
+
+    <fragment
+        android:id="@+id/contacts"
+        android:name="com.betelgeuse.corp.menunextlevel.ui.contacts.ContactsFragment"
+        android:label="@string/menu_contacts"
+        tools:layout="@layout/contacts" />
+
+    <fragment
+        android:id="@+id/nav_skoro"
+        android:name="com.betelgeuse.corp.menunextlevel.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+</navigation>
